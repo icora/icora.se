@@ -144,6 +144,31 @@ body {
 
 
 /* ==========================================================================
+   Project preview
+   ========================================================================== */
+
+.project-preview {
+  height: 300px;
+  position: relative;
+}
+
+.project-preview img {
+  display: block;
+}
+
+.project-preview figcaption {
+  background: rgba(0,0,0,.2);
+  color: #FFF;
+  bottom: 0;
+  line-height: 2;
+  padding: 0 20px;
+  position: absolute;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+
+/* ==========================================================================
    Print
    ========================================================================== */
 
