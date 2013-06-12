@@ -136,6 +136,20 @@ Fields:
   text-decoration: none;
 }
 
+.site-logo a:hover,
+.site-logo a:focus {
+  color: #000;
+}
+
+.site-logo a:hover:after,
+.site-logo a:focus:after {
+  color: #999;
+  content: " (startpage)";
+  font-size: .5em;
+  position: relative;
+  top: -.25em;
+}
+
 
 /* ==========================================================================
    Site navigation
