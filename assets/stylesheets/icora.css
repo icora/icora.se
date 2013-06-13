@@ -18,8 +18,12 @@ html {
 body {
   background: #FFF;
   color: #444;
-  font: 1em/1.375 Arial, sans-serif;
+  font: 1em/1.375 "Open Sans", Arial, sans-serif;
   margin: 20px auto;
+}
+
+h1, h2, h3, h4, strong, b {
+  font-weight: 600;
 }
 
 /* Grayscale all images until hover (http://jsfiddle.net/KDtAX/487/). */
@@ -150,7 +154,7 @@ Fields:
   padding: .5em 0;
   position: relative;
   text-transform: uppercase;
-  top: -.25em;
+  top: -.2em;
 }
 
 
