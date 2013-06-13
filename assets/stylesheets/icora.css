@@ -138,6 +138,7 @@ Fields:
 .site-logo a {
   color: inherit;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .site-logo a:hover,
@@ -154,7 +155,11 @@ Fields:
   padding: .5em 0;
   position: relative;
   text-transform: uppercase;
-  top: -.2em;
+  top: -.325em;
+}
+
+.site-logo span {
+  margin-left: 2px;
 }
 
 
