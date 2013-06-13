@@ -143,10 +143,13 @@ Fields:
 
 .site-logo a:hover:after,
 .site-logo a:focus:after {
-  color: #999;
+  color: #BBB;
   content: " (startpage)";
   font-size: .5em;
+  font-weight: normal;
+  padding: .5em 0;
   position: relative;
+  text-transform: uppercase;
   top: -.25em;
 }
 
