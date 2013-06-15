@@ -125,7 +125,6 @@ with full width columns, followed by half columns and end with the wide layout.
   border-bottom: 1px solid #DDD;
   overflow: hidden;
   margin-bottom: 20px;
-  padding-bottom: 19px;
 }
 
 
@@ -137,7 +136,7 @@ with full width columns, followed by half columns and end with the wide layout.
   float: left;
   font-size: 30px;
   line-height: 1;
-  margin: 0;
+  margin: 0 0 19px;
 }
 
 .site-logo a {
@@ -190,7 +189,7 @@ with full width columns, followed by half columns and end with the wide layout.
 }
 
 .site-nav ul {
-  margin: 0;
+  margin: 0 0 19px;
   padding: 0;
 }
 
