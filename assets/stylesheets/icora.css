@@ -216,9 +216,10 @@ Fields:
   position: relative;
 }
 
-.project-preview a {
+.project-preview img {
   display: block;
-  height: 300px;
+  height: auto;
+  width: 100%;
 }
 
 .project-preview figcaption {
@@ -229,6 +230,14 @@ Fields:
   padding: 0 20px;
   position: absolute;
   text-transform: uppercase;
+}
+
+@media only screen and (min-width: 35em) {
+
+  .project-preview img {
+    width: auto;
+  }
+
 }
 
 
