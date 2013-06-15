@@ -76,17 +76,24 @@ Fields:
   - 700
   - 940
 
+Even though the numbers above are fixed pixel values this is not how the grid
+works. The grid itself is fluid and handles responsiveness very well. We start
+with full width columns, followed by half columns and end with the wide layout.
+
 */
 
 .row {
-  overflow: hidden;
+  margin-left: -20px;
 }
 
 .column-1,
 .column-2,
 .column-3,
 .column-4 {
+  border-left: 20px solid white;
+  float: left;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 35em) {
@@ -95,21 +102,17 @@ Fields:
   .column-2,
   .column-3,
   .column-4 {
-    float: left;
-    margin-left: 20px;
+    width: 50%;
   }
 
-  .column-1:first-child,
-  .column-2:first-child,
-  .column-3:first-child,
-  .column-4:first-child {
-    margin-left: 0;
-  }
+}
 
-  .column-1 { width: 220px; }
-  .column-2 { width: 460px; }
-  .column-3 { width: 700px; }
-  .column-4 { width: 940px; }
+@media only screen and (min-width: 60em) {
+
+  .column-1 { width: 25%; }
+  .column-2 { width: 50%; }
+  .column-3 { width: 75%; }
+  .column-4 { width: 100%; }
 
 }
 
