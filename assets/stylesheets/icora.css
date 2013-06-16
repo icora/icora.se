@@ -100,10 +100,13 @@ with full width columns, followed by half columns and end with the wide layout.
 @media only screen and (min-width: 35em) {
 
   .column-1,
-  .column-2,
+  .column-2 {
+    width: 50%;
+  }
+
   .column-3,
   .column-4 {
-    width: 50%;
+    width: 100%;
   }
 
 }
@@ -291,6 +294,62 @@ with full width columns, followed by half columns and end with the wide layout.
 
   .project-preview img {
     width: auto;
+  }
+
+}
+
+
+/* ==========================================================================
+   Project
+   ========================================================================== */
+
+.project-head {
+  overflow: hidden;
+}
+
+.project-meta {
+  background: #EEE;
+  border-top: 2px solid #DDD;
+  font-weight: 600;
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.project-meta li {
+  float: left;
+  margin-right: 20px;
+}
+
+.project-meta span {
+  display: none;
+}
+
+.project-meta strong {
+  display: block;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .project-body {
+    float: left;
+    width: 75%;
+  }
+
+  .project-foot {
+    float: right;
+    width: 25%;
+  }
+
+  .project-meta li {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .project-meta li:first-child {
+    margin-top: 0;
   }
 
 }
