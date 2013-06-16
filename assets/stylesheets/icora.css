@@ -82,8 +82,9 @@ with full width columns, followed by half columns and end with the wide layout.
 
 */
 
-.row {
+.container {
   margin-left: -20px;
+  overflow: hidden;
 }
 
 .column-1,
