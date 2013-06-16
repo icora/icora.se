@@ -339,6 +339,11 @@ with full width columns, followed by half columns and end with the wide layout.
     width: 75%;
   }
 
+  .project-body h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
   .project-foot {
     float: right;
     width: 25%;
