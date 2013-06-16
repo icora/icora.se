@@ -334,6 +334,7 @@ with full width columns, followed by half columns and end with the wide layout.
 @media only screen and (min-width: 60em) {
 
   .project-body {
+    border-right: 20px solid #FFF;
     float: left;
     width: 75%;
   }
