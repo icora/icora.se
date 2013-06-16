@@ -119,6 +119,56 @@ with full width columns, followed by half columns and end with the wide layout.
 
 
 /* ==========================================================================
+   Horizontal navigation
+   ========================================================================== */
+
+.nav-horizontal {
+  margin: 0 0 19px;
+  padding: 0;
+}
+
+.nav-horizontal li {
+  color: #888;
+  display: inline;
+  text-transform: uppercase;
+}
+
+.nav-horizontal li:before {
+  color: #DDD;
+  content: "/";
+  margin-right: 4px;
+}
+
+.nav-horizontal li:first-child:before {
+  content: "";
+  margin-right: 0;
+}
+
+.nav-horizontal span {
+  display: inline-block;
+  padding: .25em .4375em .125em;
+}
+
+.nav-horizontal a {
+  border-bottom: 2px solid transparent;
+  color: inherit;
+  display: inline-block;
+  padding: .25em .4375em .125em;
+  text-decoration: none;
+}
+
+.nav-horizontal a:hover,
+.nav-horizontal a:focus {
+  border-bottom-color: #000;
+  color: #000;
+}
+
+.nav-horizontal--subtle {
+  font-size: 14px;
+}
+
+
+/* ==========================================================================
    Site header
    ========================================================================== */
 
@@ -189,39 +239,26 @@ with full width columns, followed by half columns and end with the wide layout.
   float: right;
 }
 
-.site-nav ul {
-  margin: 0 0 19px;
-  padding: 0;
+
+/* ==========================================================================
+   Site footer
+   ========================================================================== */
+
+.site-footer {
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
-.site-nav li {
-  display: inline;
+.site-footer ul {
+  float: left;
 }
 
-.site-nav li:before {
-  color: #DDD;
-  content: "/";
-  margin-right: 4px;
-}
+@media only screen and (min-width: 60em) {
 
-.site-nav li:first-child:before {
-  content: "";
-  margin-right: 0;
-}
+  .site-footer ul + ul {
+    float: right;
+  }
 
-.site-nav a {
-  border-bottom: 2px solid transparent;
-  color: #888;
-  display: inline-block;
-  padding: .25em .4375em .125em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-  border-bottom-color: #000;
-  color: #000;
 }
 
 
