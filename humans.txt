@@ -1,0 +1,17 @@
+/* TEAM */
+  Developer: Teddy Zetterlund
+  Contact: teddy@madebyted.com
+  Twitter: @teddyzetterlund
+  From: Stockholm, Sweden
+
+  Designer: Kristoffer Gustafsson
+  Contact: kristoffer@parsley.se
+  Twitter: @Kristoffintosh
+  From: Falkenberg, Sweden
+
+/* SITE */
+  Name: Icora
+  Language: English
+  Standards: HTML, CSS, JS
+  Components: HTML5 Shiv, Respond.js
+  Services: GitHub
