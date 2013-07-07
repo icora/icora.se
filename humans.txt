@@ -14,4 +14,4 @@
   Language: English
   Standards: HTML, CSS, JS
   Components: HTML5 Shiv, Respond.js
-  Services: GitHub
+  Services: GitHub & Jekyll
