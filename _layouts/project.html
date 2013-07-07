@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="column-1">
+
+</div>
+
+<article class="column-3 project">
+
+  <div class="project-head">
+    <img src="{{ page.cover }}" height="310" width="1000" alt="">
+  </div>
+
+  <div class="project-body">
+
+    <h1>{{ page.title }}</h1>
+
+    {{ content }}
+
+  </div>
+
+  <div class="project-foot">
+    <ul class="project-meta">
+      <li>
+        Segment<span>:</span>
+        <strong>{{ page.segment }}</strong>
+      </li>
+      <li>
+        URL<span>:</span>
+        <strong>{{ page.url }}</strong>
+      </li>
+    </ul>
+  </div>
+
+</div>
