@@ -270,8 +270,20 @@ with full width columns, followed by half columns and end with the wide layout.
    ========================================================================== */
 
 .project-preview {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   overflow: hidden;
   position: relative;
+}
+
+.project-preview:nth-child(-n+6):after {
+  background: #DDD;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
 }
 
 .project-preview img {
@@ -283,7 +295,7 @@ with full width columns, followed by half columns and end with the wide layout.
 .project-preview figcaption {
   background: rgba(0,0,0,.2);
   color: #FFF;
-  bottom: 0;
+  bottom: 20px;
   line-height: 2;
   padding: 0 20px;
   position: absolute;
