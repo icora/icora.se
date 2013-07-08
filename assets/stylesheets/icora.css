@@ -118,6 +118,9 @@ with full width columns, followed by half columns and end with the wide layout.
   .column-3 { width: 75%; }
   .column-4 { width: 100%; }
 
+  .push-1 { margin-left: 25%; }
+  .push-2 { margin-left: 50%; }
+  .push-3 { margin-left: 75%; }
 }
 
 
