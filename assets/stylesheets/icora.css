@@ -223,7 +223,7 @@ with full width columns, followed by half columns and end with the wide layout.
 @media only screen {
 
   .site-logo a {
-    background: url(assets/images/icora_logo.svg) no-repeat;
+    background: url(../images/icora_logo.svg) no-repeat;
     display: block;
     height: 30px;
     overflow: hidden;
