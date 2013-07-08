@@ -1,3 +1,4 @@
 name: Icora
+baseurl: /
 permalink: :title
 exclude: [README, vendor]
