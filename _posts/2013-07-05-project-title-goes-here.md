@@ -3,8 +3,10 @@ layout: project
 title: Project title goes here
 cover: http://lorempixel.com/1000/310/fashion/1
 segment: Music industry
-url: dufler.com
+website: dufler.com
 ---
+
+# Project title goes here
 
 Following the success of our installation for Puma by Hussein Chalayan in Selfridges, we were asked to create a one day international press event in London to launch the FW11 collection.
 
