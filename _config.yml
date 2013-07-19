@@ -1,4 +1,4 @@
 name: Icora
-baseurl: /
+baseurl: http://madebyted.com/icora.se/
 permalink: :title
 exclude: [README, vendor]
