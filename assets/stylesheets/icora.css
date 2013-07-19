@@ -92,14 +92,15 @@ works. The grid itself is fluid and handles responsiveness very well.
   margin-bottom: 20px;
 }
 
-.column-1 { width: 25%; }
-.column-2 { width: 50%; }
-.column-3 { width: 75%; }
-.column-4 { width: 100%; }
+/* Unit widths + gutter + border = total width. */
+.column-1 { width: 240px; }
+.column-2 { width: 480px; }
+.column-3 { width: 720px; }
+.column-4 { width: 960px; }
 
-.push-1 { margin-left: 25%; }
-.push-2 { margin-left: 50%; }
-.push-3 { margin-left: 75%; }
+.push-1 { margin-left: 220px; }
+.push-2 { margin-left: 460px; }
+.push-3 { margin-left: 700px; }
 
 
 /* ==========================================================================
@@ -266,8 +267,6 @@ works. The grid itself is fluid and handles responsiveness very well.
 
 .project-preview img {
   display: block;
-  height: auto;
-  width: auto;
 }
 
 .project-preview figcaption {
