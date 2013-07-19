@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Alpholmen Produktion AB
-cover: http://lorempixel.com/1000/310/fashion/1
+cover: guldmane_full.jpg
 segment: Building Industry
 website: alpholmen.se
 ---
