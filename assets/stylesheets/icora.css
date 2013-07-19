@@ -134,16 +134,15 @@ works. The grid itself is fluid and handles responsiveness very well.
 }
 
 .nav-horizontal a {
-  border-bottom: 2px solid transparent;
   color: inherit;
   display: inline-block;
-  padding: .25em .4375em .125em;
+  font-size: .875em;
+  padding: .5em .4375em .125em;
   text-decoration: none;
 }
 
 .nav-horizontal a:hover,
 .nav-horizontal a:focus {
-  border-bottom-color: #000;
   color: #000;
 }
 
