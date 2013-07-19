@@ -137,7 +137,6 @@ works. The grid itself is fluid and handles responsiveness very well.
 .nav-horizontal a {
   color: inherit;
   display: inline-block;
-  font-size: .875em;
   padding: .5em .4375em .125em;
   text-decoration: none;
 }
@@ -222,6 +221,10 @@ works. The grid itself is fluid and handles responsiveness very well.
 
 .site-nav {
   float: right;
+}
+
+.site-nav a {
+  font-size: .875em;
 }
 
 
