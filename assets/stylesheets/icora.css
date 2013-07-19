@@ -20,6 +20,7 @@ body {
   color: #444;
   font: 1em/1.375 "Open Sans", Arial, sans-serif;
   margin: 20px auto;
+  width: 940px;
 }
 
 h1, h2, h3, h4, strong, b {
@@ -47,15 +48,6 @@ img:hover {
 }
 
 
-@media only screen and (min-width: 35em) {
-
-  body {
-    max-width: 940px;
-  }
-
-}
-
-
 /* ==========================================================================
    Grid System
    ========================================================================== */
@@ -77,8 +69,7 @@ Fields:
   - 940
 
 Even though the numbers above are fixed pixel values this is not how the grid
-works. The grid itself is fluid and handles responsiveness very well. We start
-with full width columns, followed by half columns and end with the wide layout.
+works. The grid itself is fluid and handles responsiveness very well.
 
 */
 
@@ -94,34 +85,16 @@ with full width columns, followed by half columns and end with the wide layout.
   border-left: 20px solid white;
   float: left;
   margin-bottom: 20px;
-  width: 100%;
 }
 
-@media only screen and (min-width: 35em) {
+.column-1 { width: 25%; }
+.column-2 { width: 50%; }
+.column-3 { width: 75%; }
+.column-4 { width: 100%; }
 
-  .column-1,
-  .column-2 {
-    width: 50%;
-  }
-
-  .column-3,
-  .column-4 {
-    width: 100%;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .column-1 { width: 25%; }
-  .column-2 { width: 50%; }
-  .column-3 { width: 75%; }
-  .column-4 { width: 100%; }
-
-  .push-1 { margin-left: 25%; }
-  .push-2 { margin-left: 50%; }
-  .push-3 { margin-left: 75%; }
-}
+.push-1 { margin-left: 25%; }
+.push-2 { margin-left: 50%; }
+.push-3 { margin-left: 75%; }
 
 
 /* ==========================================================================
@@ -259,12 +232,8 @@ with full width columns, followed by half columns and end with the wide layout.
   float: left;
 }
 
-@media only screen and (min-width: 60em) {
-
-  .site-footer ul + ul {
-    float: right;
-  }
-
+.site-footer ul + ul {
+  float: right;
 }
 
 
@@ -292,7 +261,7 @@ with full width columns, followed by half columns and end with the wide layout.
 .project-preview img {
   display: block;
   height: auto;
-  width: 100%;
+  width: auto;
 }
 
 .project-preview figcaption {
@@ -303,14 +272,6 @@ with full width columns, followed by half columns and end with the wide layout.
   padding: 0 20px;
   position: absolute;
   text-transform: uppercase;
-}
-
-@media only screen and (min-width: 35em) {
-
-  .project-preview img {
-    width: auto;
-  }
-
 }
 
 
@@ -334,7 +295,12 @@ with full width columns, followed by half columns and end with the wide layout.
 
 .project-meta li {
   float: left;
-  margin-right: 20px;
+  margin-right: 0;
+  margin-top: 20px;
+}
+
+.project-meta li:first-child {
+  margin-top: 0;
 }
 
 .project-meta span {
@@ -346,33 +312,20 @@ with full width columns, followed by half columns and end with the wide layout.
   font-weight: normal;
 }
 
-@media only screen and (min-width: 60em) {
+.project-body {
+  border-right: 20px solid #FFF;
+  float: left;
+  width: 75%;
+}
 
-  .project-body {
-    border-right: 20px solid #FFF;
-    float: left;
-    width: 75%;
-  }
+.project-body h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
 
-  .project-body h1 {
-    font-weight: normal;
-    text-transform: uppercase;
-  }
-
-  .project-foot {
-    float: right;
-    width: 25%;
-  }
-
-  .project-meta li {
-    margin-right: 0;
-    margin-top: 20px;
-  }
-
-  .project-meta li:first-child {
-    margin-top: 0;
-  }
-
+.project-foot {
+  float: right;
+  width: 25%;
 }
 
 
