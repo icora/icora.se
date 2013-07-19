@@ -18,13 +18,18 @@ html {
 body {
   background: #FFF;
   color: #444;
-  font: 1em/1.375 "Duru Sans", Arial, sans-serif;
+  font: 1em/1.375 "Open Sans", Arial, sans-serif;
   margin: 20px auto;
   width: 940px;
 }
 
-h1, h2, h3, h4, strong, b {
+strong, b {
   font-weight: 600;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Duru Sans", Arial, sans-serif;
+  font-weight: normal;
 }
 
 /* Grayscale all images until hover (http://jsfiddle.net/KDtAX/487/). */
@@ -153,6 +158,7 @@ works. The grid itself is fluid and handles responsiveness very well.
 
 .site-header {
   border-bottom: 1px solid #DDD;
+  font-family: "Duru Sans", Arial, sans-serif;
   overflow: hidden;
   margin-bottom: 20px;
 }
@@ -224,8 +230,9 @@ works. The grid itself is fluid and handles responsiveness very well.
    ========================================================================== */
 
 .site-footer {
-  overflow: hidden;
+  font-family: "Duru Sans", Arial, sans-serif;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .site-footer ul {
