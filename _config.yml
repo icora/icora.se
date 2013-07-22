@@ -1,4 +1,4 @@
 name: Icora
-siteurl: http://madebyted.com/icora.se/
+siteurl: /
 permalink: :title
 exclude: [README, vendor]

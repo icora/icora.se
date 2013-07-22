@@ -1,7 +1,7 @@
 ---
 layout: project
 title: IDS Sverige
-cover: guldmane_full.jpg
+cover: ids_full.jpg
 segment: Computer & IT
 website: idssverige.se
 ---

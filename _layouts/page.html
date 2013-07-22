@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<article class="column-4 page" role="article">
+{% if page.cover %}
+  <div class="column-4 page">
+    <img src="{{ site.siteurl }}assets/images/pages/{{ page.cover }}" height="420" width="940" alt="">
+  </div>
+{% endif %}
 
-  {% if page.cover %}
-  <img src="{{ site.siteurl }}assets/images/pages/{{ page.cover }}" height="420" width="940" alt="">
-  {% endif %}
+<article class="column-3 push-1 page" role="article">
 
   {{ content }}
 
