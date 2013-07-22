@@ -348,13 +348,17 @@ works. The grid itself is fluid and handles responsiveness very well.
 .nav-projects-prev,
 .nav-projects-next,
 .nav-projects-all {
-  background: #EEE;
+  background: #EEE url(../images/sprites.png) no-repeat;
   float: left;
   height: 40px;
   overflow: hidden;
   text-indent: 110%;
   width: 80px;
 }
+
+.nav-projects-prev { background-position: 0 8px; }
+.nav-projects-next { background-position: 100% 8px; }
+.nav-projects-all { background-position: 50% 8px; }
 
 .nav-projects-all {
   margin: 0 5px;
