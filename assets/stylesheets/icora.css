@@ -342,6 +342,37 @@ works. The grid itself is fluid and handles responsiveness very well.
 
 
 /* ==========================================================================
+   Projects navigation
+   ========================================================================== */
+
+.nav-projects-prev,
+.nav-projects-next,
+.nav-projects-all {
+  background: #EEE;
+  float: left;
+  height: 40px;
+  overflow: hidden;
+  text-indent: 110%;
+  width: 80px;
+}
+
+.nav-projects-all {
+  margin: 0 5px;
+  width: 50px;
+}
+
+.nav-projects-browse {
+  clear: left;
+  color: #999;
+  display: block;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* ==========================================================================
    Print
    ========================================================================== */
 
