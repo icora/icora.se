@@ -254,7 +254,6 @@ works. The grid itself is fluid and handles responsiveness very well.
    ========================================================================== */
 
 .project-preview {
-  margin-bottom: 0;
   padding-bottom: 20px;
   overflow: hidden;
   position: relative;
