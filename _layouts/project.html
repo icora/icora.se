@@ -3,13 +3,9 @@ layout: default
 ---
 
 <div class="column-1">
-  {% if page.previous %}
-  <a href="{{ page.previous.url }}" class="nav-projects-prev" title="Previous project">Previous</a>
-  {% endif %}
+  <a href="{% if page.previous %}{{ page.previous.url }}{% else %}{{ site.posts[0].url }}{% endif %}" class="nav-projects-prev" title="Previous project">Previous</a>
   <a href="{{ site.siteurl }}some-of-ours" class="nav-projects-all" title="Show all projects">All</a>
-  {% if page.next %}
-  <a href="{{ page.next.url }}" class="nav-projects-next" title="Next project">Next</a>
-  {% endif %}
+  <a href="{% if page.next %}{{ page.next.url }}{% else %}{{ site.posts[-1].url }}{% endif %}" class="nav-projects-next" title="Next project">Next</a>
   <a href="{{ site.siteurl }}some-of-ours" class="nav-projects-browse">Browse our projects</a>
 </div>
 
