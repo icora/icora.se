@@ -236,8 +236,11 @@ works. The grid itself is fluid and handles responsiveness very well.
   border-top: 1px solid #DDD;
   font-family: "Duru Sans", Arial, sans-serif;
   margin-bottom: 10px;
-  padding-top: 9px;
   overflow: hidden;
+  padding-top: 9px;
+  position: relative;
+  top: -21px;
+  z-index: 1;
 }
 
 .site-footer ul {
@@ -257,16 +260,6 @@ works. The grid itself is fluid and handles responsiveness very well.
   padding-bottom: 20px;
   overflow: hidden;
   position: relative;
-}
-
-.project-preview:nth-child(-n+6):after {
-  border-bottom: 1px dashed #DDD;
-  bottom: 0;
-  content: "";
-  height: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
 }
 
 .project-preview img {
