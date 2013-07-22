@@ -3,10 +3,14 @@ layout: default
 ---
 
 <div class="column-1">
-  <a href="#" class="nav-projects-prev" title="Previous project">Previous</a>
-  <a href="#" class="nav-projects-all" title="Show all projects">All</a>
-  <a href="#" class="nav-projects-next" title="Next project">Next</a>
-  <a href="#" class="nav-projects-browse">Browse our projects</a>
+  {% if page.previous %}
+  <a href="{{ page.previous.url }}" class="nav-projects-prev" title="Previous project">Previous</a>
+  {% endif %}
+  <a href="{{ site.siteurl }}some-of-ours" class="nav-projects-all" title="Show all projects">All</a>
+  {% if page.next %}
+  <a href="{{ page.next.url }}" class="nav-projects-next" title="Next project">Next</a>
+  {% endif %}
+  <a href="{{ site.siteurl }}some-of-ours" class="nav-projects-browse">Browse our projects</a>
 </div>
 
 <article class="column-3 project" role="article">
