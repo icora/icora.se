@@ -256,6 +256,15 @@ works. The grid itself is fluid and handles responsiveness very well.
    Project preview
    ========================================================================== */
 
+.page img {
+  display: block;
+}
+
+
+/* ==========================================================================
+   Project preview
+   ========================================================================== */
+
 .project-preview {
   padding-bottom: 20px;
   overflow: hidden;

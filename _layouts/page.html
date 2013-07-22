@@ -2,7 +2,11 @@
 layout: default
 ---
 
-<article class="column-3 push-1" role="article">
+<article class="column-4 page" role="article">
+
+  {% if page.cover %}
+  <img src="{{ site.siteurl }}assets/images/pages/{{ page.cover }}" height="420" width="940" alt="">
+  {% endif %}
 
   {{ content }}
 
