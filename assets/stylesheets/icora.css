@@ -263,6 +263,17 @@ works. The grid itself is fluid and handles responsiveness very well.
   padding: 0 15px;
   position: absolute;
   text-transform: uppercase;
+  z-index: 2;
+}
+
+.project-preview-duplicate-image {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.project-preview:hover .project-preview-duplicate-image {
+  z-index: 1;
 }
 
 
