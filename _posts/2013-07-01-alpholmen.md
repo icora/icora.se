@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Alpholmen Produktion AB
-cover: alpholmen_full.jpg
+title: Alpholmen
+slug: alpholmen
 segment: Building Industry
 website: alpholmen.se
 ---

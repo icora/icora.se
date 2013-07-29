@@ -3,37 +3,13 @@ layout: default
 title: Some of ours
 ---
 
+{% for post in site.posts %}
+
 <figure class="project-preview column-1">
-  <a href="{{ site.siteurl }}alpholmen">
-    <img src="{{ site.siteurl }}assets/images/projects/alpholmen_1.jpg" height="300" width="220" alt="">
-    <figcaption>Alpholmen</figcaption>
+  <a href="{{ post.url }}">
+    <img src="{{ site.siteurl }}assets/images/projects/{{ post.slug }}_off.jpg" height="300" width="220" alt="">
+    <figcaption>{{ post.title }}</figcaption>
   </a>
 </figure>
 
-<figure class="project-preview column-1">
-  <a href="{{ site.siteurl }}ids-sverige">
-    <img src="{{ site.siteurl }}assets/images/projects/ids_1.jpg" height="300" width="220" alt="">
-    <figcaption>IDS Sverige</figcaption>
-  </a>
-</figure>
-
-<figure class="project-preview column-1">
-  <a href="{{ site.siteurl }}guldmane">
-    <img src="{{ site.siteurl }}assets/images/projects/guldmane_1.jpg" height="300" width="220" alt="">
-    <figcaption>Guldmane</figcaption>
-  </a>
-</figure>
-
-<figure class="project-preview column-1">
-  <a href="{{ site.siteurl }}dufler">
-    <img src="{{ site.siteurl }}assets/images/projects/dufler_1.jpg" height="300" width="220" alt="">
-    <figcaption>Dufler</figcaption>
-  </a>
-</figure>
-
-<figure class="project-preview column-1">
-  <a href="{{ site.siteurl }}codc">
-    <img src="{{ site.siteurl }}assets/images/projects/codc_1.jpg" height="300" width="220" alt="">
-    <figcaption>CODC</figcaption>
-  </a>
-</figure>
+{% endfor %}

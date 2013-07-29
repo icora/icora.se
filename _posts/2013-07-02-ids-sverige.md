@@ -1,7 +1,7 @@
 ---
 layout: project
 title: IDS Sverige
-cover: ids_full.jpg
+slug: ids
 segment: Computer & IT
 website: idssverige.se
 ---
