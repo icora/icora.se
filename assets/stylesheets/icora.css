@@ -281,7 +281,16 @@ works. The grid itself is fluid and handles responsiveness very well.
    Project
    ========================================================================== */
 
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  display: block;
+}
+
 .project-head {
+  margin-bottom: 20px;
   overflow: hidden;
 }
 
@@ -316,17 +325,18 @@ works. The grid itself is fluid and handles responsiveness very well.
 .project-body {
   border-right: 20px solid #FFF;
   float: left;
-  width: 75%;
+  width: 460px;
 }
 
 .project-body h1 {
   font-weight: normal;
+  margin-top: 0;
   text-transform: uppercase;
 }
 
 .project-foot {
   float: right;
-  width: 25%;
+  width: 220px;
 }
 
 

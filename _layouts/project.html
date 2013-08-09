@@ -22,15 +22,18 @@ layout: default
   </div>
 
   <div class="project-foot">
+    <img src="{{ site.siteurl }}assets/images/projects/{{ page.slug}}_logo.png" height="120" width="220">
     <ul class="project-meta">
       <li>
         Segment<span>:</span>
         <strong>{{ page.segment }}</strong>
       </li>
+      {% if page.website %}
       <li>
         URL<span>:</span>
         <strong>{{ page.website }}</strong>
       </li>
+      {% endif %}
     </ul>
   </div>
 
