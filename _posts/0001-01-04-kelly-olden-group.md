@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Kelly Olden Group
-slug: kelly-olden-group
+slug: kelly_olden
 segment: Technology
 ---
 
