@@ -43,6 +43,11 @@ p {
   font-size: 14px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 
 /* ==========================================================================
    Grid System
@@ -122,14 +127,14 @@ works. The grid itself is fluid and handles responsiveness very well.
 
 .nav-horizontal span {
   display: inline-block;
-  font-size: 12px;
+  font-size: 11px;
   padding: .25em .4375em .125em;
 }
 
 .nav-horizontal a {
   color: inherit;
   display: inline-block;
-  font-size: 12px;
+  font-size: 11px;
   padding: 8px 6px 2px;
   text-decoration: none;
 }
