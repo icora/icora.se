@@ -230,6 +230,7 @@ works. The grid itself is fluid and handles responsiveness very well.
 .site-footer {
   border-top: 1px solid #DDD;
   font-family: "Duru Sans", Arial, sans-serif;
+  font-size: 12px;
   margin-bottom: 10px;
   overflow: hidden;
   padding-top: 9px;
