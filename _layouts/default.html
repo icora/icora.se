@@ -8,9 +8,13 @@
 
     <meta rel="author" href="humans.txt">
 
-    <meta name="description" content="">
+    {% if page.summary %}
+    <meta name="description" content="{{ page.summary }}">
+    {% else %}
+    <meta name="description" content="Icora is a venture company driven by entrepreneurs for entrepreneurs. We strive to make the greatness in your business even greater by implementing experience, funding and a global network.">
+    {% endif %}
 
-    <title>Icora</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Icora</title>
 
     <script>document.documentElement.className = 'js';</script>
 

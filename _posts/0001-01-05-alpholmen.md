@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Alpholmen
+summary: Alpholmen is a construction company with two legs, one is inhouse production of small houses for end consumers and the other is as a subcontractor to major companies like Skanska and others.
 slug: alpholmen
 segment: Construction
 website: alpholmen.se

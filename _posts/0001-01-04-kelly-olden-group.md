@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Kelly Olden Group
+summary: Kelly Olden Group LLC co-founded Protex Solutions LLC, because of both the immediate and long term benefits of such a new and unique product line.
 slug: kelly_olden
 segment: Technology
 ---

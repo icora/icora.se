@@ -1,6 +1,7 @@
 ---
 layout: project
 title: IDS Sverige
+summary: IDS is a sanitation company with an exclusive product for the Scandinavian market, it´s a product invented by Sandia Laboratories, The American governments innovation laboratory.
 slug: ids
 segment: Remediation
 website: idssverige.se
