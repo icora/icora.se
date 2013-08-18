@@ -36,6 +36,7 @@ h1 {
   font-size: 28px;
   font-weight: normal;
   margin-top: 0;
+  text-rendering: optimizeLegibility;
   text-transform: uppercase;
 }
 
