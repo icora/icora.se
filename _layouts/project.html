@@ -9,7 +9,7 @@ layout: default
   <a href="{{ site.siteurl }}some-of-ours" class="nav-projects-browse">Browse our projects</a>
 </div>
 
-<article class="column-3 project" role="article">
+<article class="column-3 project" role="article" itemscope itemtype="http://schema.org/Organization">
 
   <div class="project-head">
     <img src="{{ site.siteurl }}assets/images/projects/{{ page.slug }}_full.jpg" height="420" width="700" alt="">
@@ -17,12 +17,14 @@ layout: default
 
   <div class="project-body">
 
+    <h1 itemprop="name">{{ page.title }}</h1>
+
     {{ content }}
 
   </div>
 
   <aside class="project-foot" role="complementary">
-    <img src="{{ site.siteurl }}assets/images/projects/{{ page.slug}}_logo.png" height="120" width="220">
+    <img src="{{ site.siteurl }}assets/images/projects/{{ page.slug}}_logo.png" height="120" width="220" alt="" itemprop="logo">
     <ul class="project-meta">
       <li>
         Segment<span>:</span>
@@ -31,7 +33,7 @@ layout: default
       {% if page.website %}
       <li>
         URL<span>:</span>
-        <strong><a href="http://{{ page.website }}">{{ page.website }}</a></strong>
+        <strong><a href="http://{{ page.website }}" itemprop="url">{{ page.website }}</a></strong>
       </li>
       {% endif %}
     </ul>
