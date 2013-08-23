@@ -18,13 +18,21 @@
 
     <script>document.documentElement.className = 'js';</script>
 
-    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <script>
-      WebFont.load({
+      WebFontConfig = {
         google: {
           families: ['Duru Sans', 'Open Sans:400,600']
         }
-      });
+      };
+
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
     </script>
 
     <link rel="stylesheet" href="{{ site.siteurl }}assets/stylesheets/icora.css">
