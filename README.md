@@ -11,6 +11,8 @@ http://icora.se
 1. Visit the [Icora.se GitHub repository](https://github.com/icora/icora.se) and go to `_posts`.
 
 2. Create a new file and name it `0001-01-<x>.md`, where `<x>` is the number of the last post + 1.
+    
+  ![](http://i.imgur.com/Ha7s0Kw.png)
 
 3. Add the following lines to the top of the file and then just start typing with markdown:
 
@@ -28,3 +30,5 @@ http://icora.se
     ```
 
 4 . Commit the new file and watch the glory on icora.se
+    
+  ![](http://i.imgur.com/X19CKGB.png)
