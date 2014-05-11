@@ -42,7 +42,7 @@ body {
   color: #444;
   font: 1em/1.375 "Open Sans", Arial, sans-serif;
   margin: 20px auto;
-  width: 940px;
+  max-width: 940px;
 }
 
 figure {
@@ -50,8 +50,13 @@ figure {
 }
 
 img {
-  border: 0;
   -ms-interpolation-mode: bicubic;
+  border: 0;
+}
+
+.img-adapt-to-viewport {
+  height: auto;
+  max-width: 100%;
 }
 
 svg:not(:root) {
@@ -110,14 +115,10 @@ Gutter: 20
 Margin: 20
 
 Fields:
-  - 220
-  - 460
-  - 700
-  - 940
-
-Even though the numbers above are fixed pixel values this is not how the grid
-works. The grid itself is fluid and handles responsiveness very well.
-
+  - 240
+  - 480
+  - 720
+  - 960
 */
 
 .container {
@@ -401,7 +402,7 @@ works. The grid itself is fluid and handles responsiveness very well.
 
 .project-foot {
   float: right;
-  width: 220px;
+  width: 240px;
 }
 
 
@@ -493,6 +494,37 @@ works. The grid itself is fluid and handles responsiveness very well.
 @keyframes rotation {
   from {transform: rotate(0deg);}
   to {transform: rotate(359deg);}
+}
+
+/* ==========================================================================
+   Mobile layout
+   ========================================================================== */
+
+@media only screen and (max-width: 940px) {
+  .column-1,
+  .column-2,
+  .column-3,
+  .column-4,
+  .project-body,
+  .project-foot { width: 100%; }
+
+  .project-preview,
+  img {
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .nav-projects-browse {
+    text-align: left !important;
+  }
+
+  .project-preview:nth-child(2),
+  .project-preview:nth-child(3),
+  .project-preview:nth-child(5),
+  .project-preview:nth-child(6),
+  .project-preview:nth-child(8) {
+    display: none;
+  }
 }
 
 
