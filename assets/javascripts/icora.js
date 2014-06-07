@@ -1,4 +1,5 @@
 (function(window, document) {
+  var i;
 
   // Helper function to emulate an insertAfter DOM function
   function insertAfter(referenceNode, newNode) {
@@ -16,7 +17,7 @@
    * Embed project preview images with JavaScript for a faster website experience.
    */
 
-  for (var i = projectPreviews.length - 1; i >= 0; i--) {
+  for (i = projectPreviews.length - 1; i >= 0; i--) {
     var placeholder    = projectPreviews[i].querySelector(".project-preview-image");
     var generatedImage = document.createElement("img");
 
@@ -37,7 +38,7 @@
   if (matchMedia('only screen and (min-width: 680px)').matches) {
 
     // Go through each project preview and append a duplicated image with the "on"-state
-    for (var i = projectPreviews.length - 1; i >= 0; i--) {
+    for (i = projectPreviews.length - 1; i >= 0; i--) {
       var originalImage  = projectPreviews[i].querySelector("img");
       var duplicateImage = originalImage.cloneNode();
 
