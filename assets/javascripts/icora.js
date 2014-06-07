@@ -26,7 +26,7 @@
     generatedImage.width     = placeholder.getAttribute("data-width");
 
     insertAfter(placeholder, generatedImage);
-  };
+  }
 
 
   /**
@@ -44,7 +44,7 @@
       duplicateImage.className = "project-preview-duplicate-image";
       duplicateImage.src = originalImage.src.replace(/_off/, "_on");
       insertAfter(originalImage, duplicateImage);
-    };
+    }
 
   }
 
