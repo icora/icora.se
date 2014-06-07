@@ -1,4 +1,4 @@
-(function(document) {
+(function(window, document) {
 
   // Helper function to emulate an insertAfter DOM function
   function insertAfter(referenceNode, newNode) {
@@ -48,4 +48,4 @@
 
   }
 
-})(document);
+})(window, document);
