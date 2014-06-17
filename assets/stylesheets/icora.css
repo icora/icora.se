@@ -141,10 +141,6 @@ Fields:
 .column-3 { width: 720px; }
 .column-4 { width: 960px; }
 
-.push-1 { margin-left: 220px; }
-.push-2 { margin-left: 460px; }
-.push-3 { margin-left: 700px; }
-
 
 /* ==========================================================================
    Horizontal navigation
@@ -350,98 +346,6 @@ Fields:
 
 
 /* ==========================================================================
-   Project
-   ========================================================================== */
-
-.project {
-  margin-bottom: 40px;
-}
-
-.project img {
-  display: block;
-}
-
-.project-head {
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-
-.project-meta {
-  background: #EEE;
-  border-top: 2px solid #DDD;
-  font-size: .875em;
-  font-weight: 600;
-  list-style: none;
-  margin: 0;
-  padding: 20px;
-  overflow: hidden;
-}
-
-.project-meta li {
-  margin-top: 20px;
-}
-
-.project-meta li:first-child {
-  margin-top: 0;
-}
-
-.project-meta span {
-  display: none;
-}
-
-.project-meta strong {
-  display: block;
-  font-weight: normal;
-}
-
-.project-body {
-  border-right: 20px solid #FFF;
-  float: left;
-  width: 460px;
-}
-
-.project-foot {
-  float: right;
-  width: 240px;
-}
-
-
-/* ==========================================================================
-   Projects navigation
-   ========================================================================== */
-
-.nav-projects-prev,
-.nav-projects-next,
-.nav-projects-all {
-  background: #EEE url(../images/sprites.png) no-repeat;
-  float: left;
-  height: 40px;
-  overflow: hidden;
-  text-indent: 110%;
-  width: 80px;
-}
-
-.nav-projects-prev { background-position: 0 8px; }
-.nav-projects-next { background-position: 100% 8px; }
-.nav-projects-all { background-position: 50% 8px; }
-
-.nav-projects-all {
-  margin: 0 5px;
-  width: 50px;
-}
-
-.nav-projects-browse {
-  clear: left;
-  color: #999;
-  display: block;
-  font-size: 14px;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-}
-
-
-/* ==========================================================================
    Loading Spinner
    ========================================================================== */
 
@@ -504,18 +408,14 @@ Fields:
   .column-1,
   .column-2,
   .column-3,
-  .column-4,
-  .project-body,
-  .project-foot { width: 100%; }
+  .column-4 {
+    width: 100%;
+  }
 
   .project-preview,
   img {
     height: auto !important;
     width: 100% !important;
-  }
-
-  .nav-projects-browse {
-    text-align: left !important;
   }
 
   .project-preview:nth-child(2),
