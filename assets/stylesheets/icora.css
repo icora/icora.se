@@ -67,21 +67,13 @@ strong, b {
   font-weight: 600;
 }
 
-h1, h2, h3, h4 {
-  font-family: "Duru Sans", Arial, sans-serif;
-  font-weight: normal;
-}
-
 h1 {
+  font-family: "Duru Sans", Arial, sans-serif;
   font-size: 28px;
+  font-weight: normal;
   margin: 0 0 .67em;
   text-rendering: optimizeLegibility;
   text-transform: uppercase;
-}
-
-
-h2 {
-  margin: 0 0 .83em;
 }
 
 p {
@@ -478,14 +470,12 @@ Fields:
     }
 
     p,
-    h2,
-    h3 {
+    h2 {
         orphans: 3;
         widows: 3;
     }
 
-    h2,
-    h3 {
+    h2 {
         page-break-after: avoid;
     }
 }
